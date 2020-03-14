@@ -1,2 +1,7 @@
-# JavaScript_con_Alfonso
-Estudios desde la casa.
+var  dibujarDiagonal = function(numeroAsteriscos){
+    let asterisco = "*"
+    for(index = 0;index< numeroAsteriscos;index++){
+        console.log(asterisco)
+        asterisco = " " + asterisco
+    }
+}
